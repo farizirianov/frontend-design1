@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Template Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="contenido">
+      <div class="bar">
+        <a class="logo" href="index.html">
+          <img src="./assets/images/logo.svg">      
+        </a>
+
+        <nav class="navegation">
+          <div id="toggle-btn" class="toggle-btn">
+            <i id="icon-bar" class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div id="sombra" class="sombra sombra-show"></div>
+
+          <ul id="main-menu" class="main-menu">
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Home</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">New</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Popular</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Trending</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header> 
+
+  <div class="contenido main-content">
+    <main class="main">
+      <div class="main-image">
+        <img src="./assets/images/image-web-3-desktop.jpg" style="background-size: cover;">
+      </div>
+
+      <div class="main-description">
+        <h1 class="margin-none main-title">The Bright Future of Web 3.0?</h1>
+        <div class="main-description-p">
+          <p class="p-color-grayish margin-none">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <a href="#" class="botton">Read more</a>
+        </div>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <h2 class="sidebar-headding margin-none">New</h3>
+      
+      <ul class="news padding-none">
+        <li class="widget-new">
+          <h2 class="widget-new__headding margin-none">VS Electric Cars</h2>
+          <p class="widget-new__p">Will hydrogen-fueled cars ever catch up to EVs?</h2>
+        </li>
+
+        <li class="widget-new">
+          <h2 class="widget-new__headding margin-none">The Downsides of AI Artistry</h2>
+          <p class="widget-new__p">What are the possible adverse effects of on-demand AI image generation?</p>
+        </li>
+
+        <li class="widget-new">
+          <h2 class="widget-new__headding margin-none">Is VC Funding Drying Up?</h2>
+          <p class="widget-new__p">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>          
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <section class="contenido list">
+    <div class="list-devices">
+      <div class="list-devices-image">
+        <img class="pequena" src="./assets/images/image-retro-pcs.jpg">
+      </div>
+
+      <div class="list-devices-description">
+        <h2 class="list-devices-description__h2">01</h2>
+        <h4 class="list-devices-description__h4">Reviving Retro PCs</h4>
+        <p class="list-devices-description__p">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+
+    <div class="list-devices">
+      <div class="list-devices-image">
+        <img class="pequena" src="./assets/images/image-top-laptops.jpg">
+      </div>
+
+      <div class="list-devices-description">
+        <h2 class="list-devices-description__h2">02</h2>
+        <h4 class="list-devices-description__h4">Top 10 Laptops of 2022</h4>
+        <p class="list-devices-description__p">Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+
+    <div class="list-devices">
+      <div class="list-devices-image">
+        <img class="pequena" src="./assets/images/image-gaming-growth.jpg">
+      </div>
+
+      <div class="list-devices-description">
+        <h2 class="list-devices-description__h2">03</h2>
+        <h4 class="list-devices-description__h4">The Growth of Gaming</h4>
+        <p class="list-devices-description__p">ow the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="foot">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/farialis-martinez-09375a133/">Farialis</a>.
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script> 
+</body>
+</html>
